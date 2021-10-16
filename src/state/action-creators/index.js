@@ -1,7 +1,7 @@
 export const depositeMoney = (amount)=> {
     return (dispatch)=>{
         dispatch({
-            type:"deposite",
+            type:"deposit",
             payload:amount
         })
     }
