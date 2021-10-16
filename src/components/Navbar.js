@@ -1,9 +1,12 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 // import logo from "../assets/Inotebook.png"
 import "./Navbar.css"
 
+
 function Navbar() {
+    const amount = useSelector(state => state.amount)
     return (
         <>
             <nav id='nav'>
@@ -20,7 +23,7 @@ function Navbar() {
                 </div>
 
                 <div id="balanceDiv">
-                    <button id="balanceBtn" disabled={true} >Your Balance: 1000000</button>
+                    <button id="balanceBtn" disabled={true} >Your Balance: {amount}</button>
                 </div>
             </nav>
         </>
