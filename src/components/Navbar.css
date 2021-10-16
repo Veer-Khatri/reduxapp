@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    margin: 0;
+    padding : 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+#nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Logo_Name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center  ;
+}
+
+#Logo_Name img{
+    width: 60px;
+    height: 52px;
+}
+#Logo_Name p{
+    font-size: 24px;
+    margin:  0 20px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+#navLinks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+}
+#navLinks .links{
+    box-sizing: border-box;
+    margin: 4px 15px;
+    color: black;
+    font-family: cursive;
+    padding: 4px;
+    border-radius:5px ;
+}
+
+#navLinks .links:hover{
+    padding-bottom:0 ;
+    transition-duration: 200ms;
+    border-bottom: 4px solid black;
+    
+}
+/* balance div */
+
+
+#balanceBtn{
+    padding: 5px;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    border: 4px solid salmon;
+    background-color: rgb(243, 182, 13);
+    color: white;
+    border-radius: 4px;
+}   
+#balanceBtn:disabled{
+
+    color: rgb(107, 105, 105);
+    
+}
+
