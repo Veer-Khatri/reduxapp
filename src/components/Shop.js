@@ -4,7 +4,7 @@ const Shop = () => {
     return (
         <div className="shopDiv">
             <button className="moneyBtn">-</button>
-            Add item to cart Price:₹100
+            Deposite/Withdraw money
             <button className="moneyBtn">+</button>
         </div>
     )
